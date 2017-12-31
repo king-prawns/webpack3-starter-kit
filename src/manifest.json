@@ -1,0 +1,9 @@
+{
+  "name": "extreme-scaffolding",
+  "version": "1.0.0",
+  "short_name": "extreming",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3"
+}
