@@ -1,3 +1,9 @@
 import * as view from './template.html';
 
-export default init = () => document.getElementById('container').innerHTML = view;
+const init = () => {
+  console.log(view);
+  document.getElementById('container').innerHTML = view;
+};
+
+export default init;
+

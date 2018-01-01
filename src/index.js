@@ -1,4 +1,6 @@
 import init from './components/my-app';
-import '../static/styles/main.scss';
+import './assets/styles/main.scss';
+
+if (module.hot) { module.hot.accept(); } // HMR
 
 init();
