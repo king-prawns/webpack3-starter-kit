@@ -9,7 +9,7 @@ const ENTRY = {
   app: './src/index.js'
 };
 const FILENAME = './app.js';
-const SOURCE_MAP = 'cheap-module-eval-source-map';
+const SOURCE_MAP = 'eval-source-map';
 
 module.exports = merge(base, {
   entry   : ENTRY,

@@ -8,15 +8,16 @@ process.env.NODE_ENV = 'dev';
 const DEFAULT_HOST = 'localhost';
 const DEFAULT_PORT = 8081;
 const options = {
-  host         : DEFAULT_HOST,
-  port         : DEFAULT_PORT,
-  contentBase  : 'src',
-  hot          : true,
-  compress     : true,
-  watchOptions : { poll: true },
-  inline       : true,
-  stats        : 'minimal',
-  overlay      : true
+  host           : DEFAULT_HOST,
+  port           : DEFAULT_PORT,
+  contentBase    : 'src',
+  stats          : 'minimal',
+  clientLogLevel : 'none',
+  watchOptions   : { poll: true },
+  hot            : true,
+  compress       : true,
+  inline         : true,
+  overlay        : true
 };
 
 WebpackDevServer.addDevServerEntrypoints(config, options);
