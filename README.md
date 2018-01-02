@@ -17,7 +17,9 @@ Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
 
 * Clone this repository
 
+```
 git clone https://github.com/king-prawns/extreme-scaffolding.git [your-app-name]
+```
 
 Remove the .git folder and change details within:
 
@@ -29,7 +31,7 @@ src/manifest.json
 * Install dependencies
 
 ```
-$ cd my-project
+$ cd my-app-name
 $ yarn
 ```
 
@@ -44,7 +46,6 @@ Then your browser will be opened automagically
 * Test
 
 ```
-$ cd my-project
 $ yarn test
 ```
 
@@ -65,7 +66,7 @@ $ yarn global add http-server
 then
 
 ```
-$ cd my-project\dist
+$ cd my-app-name\dist
 http-server -o
 ```
 
