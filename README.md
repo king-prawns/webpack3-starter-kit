@@ -18,6 +18,7 @@ Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
 * Clone this repository
 
 git clone https://github.com/king-prawns/extreme-scaffolding.git [your-app-name]
+
 Remove the .git folder and change details within:
 
 ```
