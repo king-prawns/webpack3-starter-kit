@@ -15,13 +15,21 @@ Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
 
 ## Usage
 
-* Clone or Download the project
+* Clone this repository
+
+git clone https://github.com/king-prawns/extreme-scaffolding.git [your-app-name]
+Remove the .git folder and change details within:
+
+```
+package.json
+src/manifest.json
+```
 
 * Install dependencies
 
 ```
 $ cd my-project
-$ yarn install
+$ yarn
 ```
 
 * Development
