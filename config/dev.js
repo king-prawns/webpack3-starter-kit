@@ -1,9 +1,9 @@
+process.env.NODE_ENV = 'dev';
+
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const opn = require('opn');
 const config = require('./webpack.dev.conf');
-
-process.env.NODE_ENV = 'dev';
 
 const DEFAULT_HOST = 'localhost';
 const DEFAULT_PORT = 8081;

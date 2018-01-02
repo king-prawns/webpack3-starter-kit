@@ -10,6 +10,7 @@ const ENTRY = {
 };
 const FILENAME = './app.js';
 const SOURCE_MAP = 'eval-source-map';
+const TITLE = 'DEV - Extreme Scaffolding';
 
 module.exports = merge(base, {
   entry   : ENTRY,
@@ -64,8 +65,8 @@ module.exports = merge(base, {
     }),
     new HtmlWebpackPlugin({
       template : 'src/index.ejs',
-      title    : 'DEV - Extreme Scaffolding',
-      inject   : true
+      favicon  : 'favicon.ico', // or use favicons-webpack-plugin
+      title    : TITLE
     })
   ]
 });

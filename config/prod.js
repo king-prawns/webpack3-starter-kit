@@ -1,11 +1,11 @@
+process.env.NODE_ENV = 'production';
+
 const path = require('path');
 const webpack = require('webpack');
 const ora = require('ora');
 const fs = require('fs-extra');
 const chalk = require('chalk');
 const config = require('./webpack.prod.conf');
-
-process.env.NODE_ENV = 'prod';
 
 const spinner = ora('I am building...');
 spinner.start();
