@@ -1,6 +1,6 @@
 {
   "name": "extreme-scaffolding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extreme scaffolding for extreme developers",
   "main": "./src/index.js",
   "engines": {
