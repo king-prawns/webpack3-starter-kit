@@ -15,6 +15,11 @@ module.exports = {
           "afterColon": true,
           "on": "colon"
       }
-    }]
+    }],
+    "complexity": ["error", 3],
+    "max-depth": ["error", 2],
+    "max-nested-callbacks": ["error", 1],
+    "max-statements": ["error", 15],
+    "max-len": ["error", 100]
   }
 };
