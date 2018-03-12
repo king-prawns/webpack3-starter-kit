@@ -1,7 +1,7 @@
 {
-  "name": "extreme-scaffolding",
+  "name": "webpack3-starter-kit",
   "version": "1.0.1",
-  "description": "extreme scaffolding for extreme developers",
+  "description": "webpack 3 scaffolding",
   "main": "./src/index.js",
   "engines": {
     "node": ">= 6.0",

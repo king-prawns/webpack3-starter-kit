@@ -1,4 +1,4 @@
-# extreme-scaffolding
+# webpack3-starter-kit
 
 Webpack 3 with Webpack Dev Server Configuration.
 
@@ -18,7 +18,7 @@ Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
 * Clone this repository
 
 ```
-git clone https://github.com/king-prawns/extreme-scaffolding.git [your-app-name]
+git clone https://github.com/king-prawns/webpack3-starter-kit.git [your-app-name]
 ```
 
 Remove the .git folder and change details within:
